@@ -7,5 +7,10 @@
 ## 二维空间向量的距离和内积
 &emsp;&emsp;通过距离和内积可以计算出两个信号的关系强弱.为了简化问题这里只考虑2维的信号.
 
-&emsp;&emsp;设对某个连续信号f(t)和g(t)进行采样得到两个值(f1,f2)和(g1,g2);那么f(t)和g(t)可以表示成二维向量形式f = (f1,f2)和g = (g1,g2)
-&emsp;&emsp;
+&emsp;&emsp;设对某个连续信号f(t)和g(t)进行采样得到两个值(f1,f2)和(g1,g2);那么f(t)和g(t)可以表示成二维向量形式f = (f1,f2)和g = (g1,g2),如下图:
+
+![](https://github.com/gaosiyan/DSP/blob/master/image/DSP1.PNG?raw=true)
+
+&emsp;&emsp;信号用向量形式表示后,要考察两个信号之间的关系,只需要考察两个信号之间的关系就可以了,如下图:
+
+![](https://github.com/gaosiyan/DSP/blob/master/image/DSP2.PNG?raw=true)
